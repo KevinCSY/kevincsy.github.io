@@ -5,6 +5,13 @@ const player = "O";
 const computer = "X";
 let complete = false;
 
+function resetBoard() {
+    board_index = ["", "", "", "", "", "", "", "", ""];
+    const result = document.querySelector(".winner-text");
+    result.innerHTML = ``;
+    gameLoop();
+}
+
 const renderBoard = () => {
     board_container.innerHTML = "";
     board_index.forEach((e, i) => {
