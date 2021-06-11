@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B0DCFF;
+}
+
+.navbar {
+    background-color: darkblue;
+}
+
+.intro {
+    margin: 10px 20px;
+
+}
+.container {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container ul li {
+    padding: 0px 30px 0px 0px;
+}
+
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.list-group-item-action:hover, .list-group-item-action:focus {
+    background-color: #9dd3ff;
+}
+
+.list-group-item-action:active {
+    background-color: #6bbafa;
+}
+
+.list-container {
+    max-width: 500px;
+    margin: 20px;
+}
